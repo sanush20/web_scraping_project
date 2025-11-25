@@ -1,0 +1,25 @@
+# Ignore environments
+scraping_env_311/
+sentiment_env/
+sentiment_tf_310/
+
+# Ignore cache and temp files
+__pycache__/
+*.pyc
+
+# Ignore model files
+*.bin
+*.npy
+*.pkl
+*.h5
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore large HuggingFace and TF models
+module_6/bert_model/
+module_6/fine_tuned_bert/
+module_6/sentence_embedding.npy
+
+# Ignore dataset folders
+data/
